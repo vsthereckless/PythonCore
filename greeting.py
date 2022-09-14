@@ -13,7 +13,7 @@ while True:
         userAge = int(input("How old are you? "))
         break
     except ValueError:
-        print("You age should be a number, you silly :)")
+        print("Your age should be a number, you silly :)")
 
 
 userAddress = input("Where do you live? ")
