@@ -4,7 +4,7 @@ delay = 4
 
 print("Hi, let me introduce myself! My name is Volodia. I'm 25 and I live in Lviv, Ukraine\n\
 Now tell me something about you: ")
-sleep(2)
+sleep(delay)
 
 userName = input("What is your name? ")
 
