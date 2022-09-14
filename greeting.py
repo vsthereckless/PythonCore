@@ -4,6 +4,7 @@ delay = 4
 
 print("Hi! My name is Volodia.I'm 25 and I live in Lviv, Ukraine\n\
 Now tell me something about you: ")
+
 sleep(delay)
 
 userName = input("What is your name? ")
@@ -14,7 +15,6 @@ while True:
         break
     except ValueError:
         print("You age should be a number, you silly :)")
-
 
 userAddress = input("Where do you live? ")
 
